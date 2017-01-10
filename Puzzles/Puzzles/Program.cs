@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http.Headers;
+using System.Reflection;
 using System.Reflection.Emit;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -13,7 +15,7 @@ namespace Puzzles
     {
         static void Main(string[] args)
         {
-            string temp = Week1.Puzzle4("abab");
+            char temp = Week2.Puzzle2(5, new char[] { });
             Console.WriteLine(temp);
             
             Console.ReadLine();
@@ -177,6 +179,51 @@ namespace Puzzles
             {
                 return char.Parse(args[args.Length - 1].ToString());
             }
+        }
+
+        public static char Puzzle2(params object[] args)
+        {
+            try
+            {
+                //http://stackoverflow.com/questions/6438015/c-sharp-object-to-array
+                object anArray = args[1];
+                IEnumerable enumerable = anArray as IEnumerable;
+                string temp = "";
+                if (enumerable != null)
+                {
+                    foreach (object element in enumerable)
+                    {
+                        temp += element;
+                    }
+                }
+                if (temp == "") return '\0';
+                return temp[int.Parse(args[0].ToString())];
+
+            }
+            
+            catch (IndexOutOfRangeException)
+            {
+                //http://stackoverflow.com/questions/6438015/c-sharp-object-to-array
+                object anArray = args[1];
+                IEnumerable enumerable = anArray as IEnumerable;
+                string temp = "";
+                if (enumerable != null)
+                {
+                    foreach (object element in enumerable)
+                    {
+                        temp += element;
+                    }
+                }
+                char last = temp[temp.Length - 1];
+                return last;
+            }
+            catch (FormatException)
+            {
+                return '\0';
+            }
+
+
+
         }
     }
 }
