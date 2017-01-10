@@ -1,0 +1,6 @@
+c:\users\anton tkach\documents\visual studio 2015\Projects\Puzzles\Puzzles\bin\Debug\Puzzles.exe.config
+c:\users\anton tkach\documents\visual studio 2015\Projects\Puzzles\Puzzles\bin\Debug\Puzzles.exe
+c:\users\anton tkach\documents\visual studio 2015\Projects\Puzzles\Puzzles\bin\Debug\Puzzles.pdb
+c:\users\anton tkach\documents\visual studio 2015\Projects\Puzzles\Puzzles\obj\Debug\Puzzles.exe
+c:\users\anton tkach\documents\visual studio 2015\Projects\Puzzles\Puzzles\obj\Debug\Puzzles.pdb
+c:\users\anton tkach\documents\visual studio 2015\Projects\Puzzles\Puzzles\obj\Debug\Puzzles.csprojResolveAssemblyReference.cache
