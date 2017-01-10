@@ -225,5 +225,10 @@ namespace Puzzles
 
 
         }
+
+        public static void Puzzle3(ref int arg0)
+        {
+            arg0 *= arg0;
+        }
     }
 }

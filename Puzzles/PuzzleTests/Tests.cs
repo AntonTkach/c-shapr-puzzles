@@ -130,17 +130,17 @@ namespace PuzzleTests
             Assert.AreEqual('b', Week2.Puzzle2(1, new[] { 'a', 'b', 'c' }));
             Assert.AreEqual('x', Week2.Puzzle2(2, new[] { 'x', 'y', 'x', 'a', 'b' }));
         }
-        //[TestMethod]
-        //public void Puzzle3Test()
-        //{
-        //    int x;
-        //    x = 4;
-        //    Week2.Puzzle3(ref x);
-        //    Assert.AreEqual(16, x);
-        //    x = 5;
-        //    Week2.Puzzle3(ref x);
-        //    Assert.AreEqual(25, x);
-        //}
+        [TestMethod]
+        public void Puzzle3Test()
+        {
+            int x;
+            x = 4;
+            Week2.Puzzle3(ref x);
+            Assert.AreEqual(16, x);
+            x = 5;
+            Week2.Puzzle3(ref x);
+            Assert.AreEqual(25, x);
+        }
         //[TestMethod]
         //public void Puzzle4Test()
         //{
