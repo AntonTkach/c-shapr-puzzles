@@ -141,32 +141,32 @@ namespace PuzzleTests
             Week2.Puzzle3(ref x);
             Assert.AreEqual(25, x);
         }
-        //[TestMethod]
-        //public void Puzzle4Test()
-        //{
-        //    int x;
-        //    x = 4;
-        //    Week2.Puzzle4(x);
-        //    Assert.AreEqual(4, x);
-        //    x = 5;
-        //    Week2.Puzzle4(x);
-        //    Assert.AreEqual(5, x);
-        //}
-        //[TestMethod]
-        //public void Puzzle5Test()
-        //{
-        //    int x;
-        //    Week2.Puzzle5(4, out x);
-        //    Assert.AreEqual(16, x);
-        //    Week2.Puzzle5(5, out x);
-        //    Assert.AreEqual(25, x);
-        //}
-        //[TestMethod]
-        //public void Puzzle6Test()
-        //{
-        //    Assert.AreEqual(16, Week2.Puzzle6(4));
-        //    Assert.AreEqual(25, Week2.Puzzle6(5));
-        //}
+        [TestMethod]
+        public void Puzzle4Test()
+        {
+            int x;
+            x = 4;
+            Week2.Puzzle4(x);
+            Assert.AreEqual(4, x);
+            x = 5;
+            Week2.Puzzle4(x);
+            Assert.AreEqual(5, x);
+        }
+        [TestMethod]
+        public void Puzzle5Test()
+        {
+            int x;
+            Week2.Puzzle5(4, out x);
+            Assert.AreEqual(16, x);
+            Week2.Puzzle5(5, out x);
+            Assert.AreEqual(25, x);
+        }
+        [TestMethod]
+        public void Puzzle6Test()
+        {
+            Assert.AreEqual(16, Week2.Puzzle6(4));
+            Assert.AreEqual(25, Week2.Puzzle6(5));
+        }
         ////Kasutada tuleb rekursiooni
 
         //[TestMethod]

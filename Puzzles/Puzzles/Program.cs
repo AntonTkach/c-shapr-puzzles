@@ -230,5 +230,20 @@ namespace Puzzles
         {
             arg0 *= arg0;
         }
+
+        public static void Puzzle4(int arg0)
+        {
+            
+        }
+
+        public static void Puzzle5(int arg0, out int arg1)
+        {
+            arg1 = arg0 * arg0;
+        }
+
+        public static int Puzzle6(int arg0)
+        {
+           return arg0 * arg0;
+        }
     }
 }
