@@ -164,4 +164,19 @@ namespace Puzzles
 
 
     }
+
+    public class Week2
+    {
+        public static char Puzzle1(params object[] args)
+        {
+            try
+            {
+                return Char.Parse(args[args.Length - int.Parse(args[0].ToString()) - 1].ToString());
+            }
+            catch
+            {
+                return char.Parse(args[args.Length - 1].ToString());
+            }
+        }
+    }
 }

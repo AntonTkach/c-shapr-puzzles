@@ -3,3 +3,4 @@ C:\Users\Anton Tkach\Documents\GitHub\c-shapr-puzzles\Puzzles\Puzzles\bin\Debug\
 C:\Users\Anton Tkach\Documents\GitHub\c-shapr-puzzles\Puzzles\Puzzles\bin\Debug\Puzzles.pdb
 C:\Users\Anton Tkach\Documents\GitHub\c-shapr-puzzles\Puzzles\Puzzles\obj\Debug\Puzzles.exe
 C:\Users\Anton Tkach\Documents\GitHub\c-shapr-puzzles\Puzzles\Puzzles\obj\Debug\Puzzles.pdb
+C:\Users\Anton Tkach\Documents\GitHub\c-shapr-puzzles\Puzzles\Puzzles\obj\Debug\Puzzles.csprojResolveAssemblyReference.cache
