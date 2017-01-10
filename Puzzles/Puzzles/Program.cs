@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http.Headers;
+using System.Reflection.Emit;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,7 @@ namespace Puzzles
         {
             string temp = Week1.Puzzle4("abab");
             Console.WriteLine(temp);
+            
             Console.ReadLine();
         }
 
@@ -124,10 +126,15 @@ namespace Puzzles
         {
             return input * input;
         }
-        //public static int Puzzle7(string input)
-        //{
-
-        //}
+        public static int Puzzle7(params int[] args)
+        {
+            int result = 0;
+            for (int i = 0; i < args.Length; i++)
+            {
+                result += args[i];
+            }
+            return result;
+        }
         //public static int Puzzle8(string input)
         //{
 

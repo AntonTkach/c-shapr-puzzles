@@ -66,14 +66,14 @@ namespace PuzzleTests
             Assert.AreEqual(9, Week1.Puzzle6(3));
             Assert.AreEqual(625, Week1.Puzzle6(25));
         }
-        //[TestMethod]
-        //public void Puzzle7Test()
-        //{
-        //    // mõtelge params peale
-        //    Assert.AreEqual(0, Week1.Puzzle7(0));
-        //    Assert.AreEqual(2, Week1.Puzzle7(1, 1));
-        //    Assert.AreEqual(15, Week1.Puzzle7(1, 2, 3, 4, 5));
-        //}
+        [TestMethod]
+        public void Puzzle7Test()
+        {
+            // mõtelge params peale
+            Assert.AreEqual(0, Week1.Puzzle7(0));
+            Assert.AreEqual(2, Week1.Puzzle7(1, 1));
+            Assert.AreEqual(15, Week1.Puzzle7(1, 2, 3, 4, 5));
+        }
         //[TestMethod]
         //public void Puzzle8Test()
         //{
