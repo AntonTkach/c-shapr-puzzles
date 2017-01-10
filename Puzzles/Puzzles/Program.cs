@@ -15,9 +15,8 @@ namespace Puzzles
     {
         static void Main(string[] args)
         {
-            string temp = Week2.Puzzle8("python");
+            var temp = Week2.Puzzle9("a");
             Console.WriteLine(temp);
-            
             Console.ReadLine();
         }
 
@@ -259,6 +258,25 @@ namespace Puzzles
             if (arg0 == null|arg0==string.Empty) return "";
             if (arg0.Length == 1) return arg0;
             return arg0[arg0.Length - 1] + Puzzle8(arg0.Remove(arg0.Length - 1));
+        }
+
+        public static bool Puzzle9(string arg0)
+        {
+            if (arg0 == null | arg0 == string.Empty) return false;
+            //if (arg0.Length == 1) return true;
+            bool result = false;
+            string tail="";
+            string head = arg0;
+            for (int i = 0; tail.Length+1!=head.Length&tail.Length!=head.Length; i++)
+            {
+                tail += head[head.Length - 1];
+                head = head.Remove(head.Length - 1);
+            }
+            if (tail == head|head.Remove(head.Length - 1)==tail)
+            {
+                result = true;
+            }
+            return result;
         }
     }
 }

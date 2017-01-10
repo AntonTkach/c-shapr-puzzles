@@ -168,7 +168,6 @@ namespace PuzzleTests
             Assert.AreEqual(25, Week2.Puzzle6(5));
         }
         //Kasutada tuleb rekursiooni
-
         [TestMethod]
         public void Puzzle7Test()
         {
@@ -181,7 +180,6 @@ namespace PuzzleTests
             Assert.AreEqual(720, Week2.Puzzle7(6));
         }
         //Kasutada tuleb rekursiooni
-
         [TestMethod]
         public void Puzzle8Test()
         {
@@ -190,16 +188,16 @@ namespace PuzzleTests
             Assert.AreEqual("a", Week2.Puzzle8("a"));
             Assert.AreEqual("cba", Week2.Puzzle8("abc"));
         }
-        //[TestMethod]
-        //public void Puzzle9Test()
-        //{
-        //    Assert.AreEqual(false, Week2.Puzzle9(null));
-        //    Assert.AreEqual(false, Week2.Puzzle9(string.Empty));
-        //    Assert.AreEqual(true, Week2.Puzzle9("a"));
-        //    Assert.AreEqual(true, Week2.Puzzle9("anna"));
-        //    Assert.AreEqual(false, Week2.Puzzle9("beta"));
-        //    Assert.AreEqual(true, Week2.Puzzle9("123454321"));
-        //}
+        [TestMethod]
+        public void Puzzle9Test()
+        {
+            Assert.AreEqual(false, Week2.Puzzle9(null));
+            Assert.AreEqual(false, Week2.Puzzle9(string.Empty));
+            Assert.AreEqual(true, Week2.Puzzle9("a"));
+            Assert.AreEqual(true, Week2.Puzzle9("anna"));
+            Assert.AreEqual(false, Week2.Puzzle9("beta"));
+            Assert.AreEqual(true, Week2.Puzzle9("123454321"));
+        }
         #endregion
     }
 }
