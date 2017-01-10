@@ -135,18 +135,32 @@ namespace Puzzles
             }
             return result;
         }
-        //public static int Puzzle8(string input)
-        //{
-
-        //}
-        //public static int Puzzle9(string input)
-        //{
-
-        //}
-        //public static int Puzzle10(string input)
-        //{
-
-        //}
+        public static int Puzzle8(params int[] args)
+        {
+            int result = 0;
+            for (int i = 0; i < args.Length; i++)
+            {
+                result += args[i];
+            }
+            return result;
+        }
+        public static int Puzzle9(params int[] args)
+        {
+            int result = 0;
+            for (int i = 0; i < args.Length; i++)
+            {
+                foreach (var i1 in args)
+                {
+                    if (result < i1) result = i1;
+                }
+                
+            }
+            return result;
+        }
+        public static int Puzzle10(int input)
+        {
+            return input * -1;
+        }
 
 
     }

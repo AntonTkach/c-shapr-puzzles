@@ -74,26 +74,26 @@ namespace PuzzleTests
             Assert.AreEqual(2, Week1.Puzzle7(1, 1));
             Assert.AreEqual(15, Week1.Puzzle7(1, 2, 3, 4, 5));
         }
-        //[TestMethod]
-        //public void Puzzle8Test()
-        //{
-        //    Assert.AreEqual(0, Week1.Puzzle8(0, 0));
-        //    Assert.AreEqual(243, Week1.Puzzle8(121, 122));
-        //}
-        //[TestMethod]
-        //public void Puzzle9Test()
-        //{
-        //    // mõtelge params peale
-        //    Assert.AreEqual(0, Week1.Puzzle9(0));
-        //    Assert.AreEqual(1, Week1.Puzzle9(1, 1));
-        //    Assert.AreEqual(208, Week1.Puzzle9(1, 208, 3, 4, 5));
-        //}
-        //[TestMethod]
-        //public void Puzzle10Test()
-        //{
-        //    Assert.AreEqual(0, Week1.Puzzle10(0));
-        //    Assert.AreEqual(-1, Week1.Puzzle10(1));
-        //    Assert.AreEqual(10, Week1.Puzzle10(-10));
-        //}
+        [TestMethod]
+        public void Puzzle8Test()
+        {
+            Assert.AreEqual(0, Week1.Puzzle8(0, 0));
+            Assert.AreEqual(243, Week1.Puzzle8(121, 122));
+        }
+        [TestMethod]
+        public void Puzzle9Test()
+        {
+            // mõtelge params peale
+            Assert.AreEqual(0, Week1.Puzzle9(0));
+            Assert.AreEqual(1, Week1.Puzzle9(1, 1));
+            Assert.AreEqual(208, Week1.Puzzle9(1, 208, 3, 4, 5));
+        }
+        [TestMethod]
+        public void Puzzle10Test()
+        {
+            Assert.AreEqual(0, Week1.Puzzle10(0));
+            Assert.AreEqual(-1, Week1.Puzzle10(1));
+            Assert.AreEqual(10, Week1.Puzzle10(-10));
+        }
     }
 }
