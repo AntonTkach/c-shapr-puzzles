@@ -120,10 +120,10 @@ namespace Puzzles
             }
             return result;
         }
-        //public static int Puzzle6(string input)
-        //{
-
-        //}
+        public static int Puzzle6(int input)
+        {
+            return input * input;
+        }
         //public static int Puzzle7(string input)
         //{
 

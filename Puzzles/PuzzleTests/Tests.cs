@@ -57,15 +57,15 @@ namespace PuzzleTests
             Assert.AreEqual("9797", Week1.Puzzle5("aa"));
             Assert.AreEqual("120121122", Week1.Puzzle5("xyz"));
         }
-        //[TestMethod]
-        //public void Puzzle6Test()
-        //{
-        //    Assert.AreEqual(0, Week1.Puzzle6(0));
-        //    Assert.AreEqual(1, Week1.Puzzle6(1));
-        //    Assert.AreEqual(4, Week1.Puzzle6(2));
-        //    Assert.AreEqual(9, Week1.Puzzle6(3));
-        //    Assert.AreEqual(625, Week1.Puzzle6(25));
-        //}
+        [TestMethod]
+        public void Puzzle6Test()
+        {
+            Assert.AreEqual(0, Week1.Puzzle6(0));
+            Assert.AreEqual(1, Week1.Puzzle6(1));
+            Assert.AreEqual(4, Week1.Puzzle6(2));
+            Assert.AreEqual(9, Week1.Puzzle6(3));
+            Assert.AreEqual(625, Week1.Puzzle6(25));
+        }
         //[TestMethod]
         //public void Puzzle7Test()
         //{
