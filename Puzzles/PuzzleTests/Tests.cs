@@ -167,29 +167,29 @@ namespace PuzzleTests
             Assert.AreEqual(16, Week2.Puzzle6(4));
             Assert.AreEqual(25, Week2.Puzzle6(5));
         }
-        ////Kasutada tuleb rekursiooni
+        //Kasutada tuleb rekursiooni
 
-        //[TestMethod]
-        //public void Puzzle7Test()
-        //{
-        //    Assert.AreEqual(1, Week2.Puzzle7(0));
-        //    Assert.AreEqual(1, Week2.Puzzle7(1));
-        //    Assert.AreEqual(2, Week2.Puzzle7(2));
-        //    Assert.AreEqual(6, Week2.Puzzle7(3));
-        //    Assert.AreEqual(24, Week2.Puzzle7(4));
-        //    Assert.AreEqual(120, Week2.Puzzle7(5));
-        //    Assert.AreEqual(720, Week2.Puzzle7(6));
-        //}
-        ////Kasutada tuleb rekursiooni
+        [TestMethod]
+        public void Puzzle7Test()
+        {
+            Assert.AreEqual(1, Week2.Puzzle7(0));
+            Assert.AreEqual(1, Week2.Puzzle7(1));
+            Assert.AreEqual(2, Week2.Puzzle7(2));
+            Assert.AreEqual(6, Week2.Puzzle7(3));
+            Assert.AreEqual(24, Week2.Puzzle7(4));
+            Assert.AreEqual(120, Week2.Puzzle7(5));
+            Assert.AreEqual(720, Week2.Puzzle7(6));
+        }
+        //Kasutada tuleb rekursiooni
 
-        //[TestMethod]
-        //public void Puzzle8Test()
-        //{
-        //    Assert.AreEqual("", Week2.Puzzle8(null));
-        //    Assert.AreEqual("", Week2.Puzzle8(string.Empty));
-        //    Assert.AreEqual("a", Week2.Puzzle8("a"));
-        //    Assert.AreEqual("cba", Week2.Puzzle8("abc"));
-        //}
+        [TestMethod]
+        public void Puzzle8Test()
+        {
+            Assert.AreEqual("", Week2.Puzzle8(null));
+            Assert.AreEqual("", Week2.Puzzle8(string.Empty));
+            Assert.AreEqual("a", Week2.Puzzle8("a"));
+            Assert.AreEqual("cba", Week2.Puzzle8("abc"));
+        }
         //[TestMethod]
         //public void Puzzle9Test()
         //{

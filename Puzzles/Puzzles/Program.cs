@@ -15,7 +15,7 @@ namespace Puzzles
     {
         static void Main(string[] args)
         {
-            char temp = Week2.Puzzle2(5, new char[] { });
+            string temp = Week2.Puzzle8("python");
             Console.WriteLine(temp);
             
             Console.ReadLine();
@@ -244,6 +244,21 @@ namespace Puzzles
         public static int Puzzle6(int arg0)
         {
            return arg0 * arg0;
+        }
+
+        public static int Puzzle7(int arg0)
+        {
+            if (arg0 <= 1)
+                return 1;
+            return arg0 * Puzzle7(arg0 - 1);
+            
+        }
+
+        public static string Puzzle8(string arg0)
+        {
+            if (arg0 == null|arg0==string.Empty) return "";
+            if (arg0.Length == 1) return arg0;
+            return arg0[arg0.Length - 1] + Puzzle8(arg0.Remove(arg0.Length - 1));
         }
     }
 }
