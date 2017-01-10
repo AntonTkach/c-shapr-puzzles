@@ -101,10 +101,25 @@ namespace Puzzles
             }
             return result;
         }
-        //public static int Puzzle5(string input)
-        //{
-
-        //}
+        public static string Puzzle5(string input)
+        {
+            string result = "";
+            //string[] alphabet = new string[] {"a", "b", "c"};
+            string alphabet = "abcdefghijklmnopqrstuvwxyz";
+            if (input == null) return result;
+            foreach (char i in input)
+            {
+                int counter = 97;
+                foreach (char c in alphabet)
+                {
+                    if (i == c)
+                        break;
+                    counter++;
+                }
+                result += counter.ToString();
+            }
+            return result;
+        }
         //public static int Puzzle6(string input)
         //{
 

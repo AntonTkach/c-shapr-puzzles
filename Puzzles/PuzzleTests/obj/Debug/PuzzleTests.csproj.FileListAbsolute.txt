@@ -7,3 +7,12 @@ c:\Users\anton tkach\documents\visual studio 2015\Projects\Puzzles\PuzzleTests\b
 c:\Users\anton tkach\documents\visual studio 2015\Projects\Puzzles\PuzzleTests\obj\Debug\PuzzleTests.csprojResolveAssemblyReference.cache
 c:\Users\anton tkach\documents\visual studio 2015\Projects\Puzzles\PuzzleTests\obj\Debug\PuzzleTests.dll
 c:\Users\anton tkach\documents\visual studio 2015\Projects\Puzzles\PuzzleTests\obj\Debug\PuzzleTests.pdb
+C:\Users\Anton Tkach\Documents\GitHub\c-shapr-puzzles\Puzzles\PuzzleTests\bin\Debug\PuzzleTests.dll
+C:\Users\Anton Tkach\Documents\GitHub\c-shapr-puzzles\Puzzles\PuzzleTests\bin\Debug\PuzzleTests.pdb
+C:\Users\Anton Tkach\Documents\GitHub\c-shapr-puzzles\Puzzles\PuzzleTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Anton Tkach\Documents\GitHub\c-shapr-puzzles\Puzzles\PuzzleTests\bin\Debug\Puzzles.exe
+C:\Users\Anton Tkach\Documents\GitHub\c-shapr-puzzles\Puzzles\PuzzleTests\bin\Debug\Puzzles.pdb
+C:\Users\Anton Tkach\Documents\GitHub\c-shapr-puzzles\Puzzles\PuzzleTests\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Anton Tkach\Documents\GitHub\c-shapr-puzzles\Puzzles\PuzzleTests\obj\Debug\PuzzleTests.csprojResolveAssemblyReference.cache
+C:\Users\Anton Tkach\Documents\GitHub\c-shapr-puzzles\Puzzles\PuzzleTests\obj\Debug\PuzzleTests.dll
+C:\Users\Anton Tkach\Documents\GitHub\c-shapr-puzzles\Puzzles\PuzzleTests\obj\Debug\PuzzleTests.pdb
